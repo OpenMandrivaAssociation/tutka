@@ -13,7 +13,7 @@ URL:		http://www.nongnu.org/tutka/
 License:	GPL
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
-BuildRequires:	pkgconfig libgnomeui2-devel libxml2-devel libglade2.0-devel desktop-file-utils ImageMagick
+BuildRequires:	pkgconfig libgnomeui2-devel libxml2-devel libglade2.0-devel libalsa-devel desktop-file-utils ImageMagick
 
 %description
 Tutka is a free (as in freedom) tracker style MIDI sequencer for GNU/Linux
