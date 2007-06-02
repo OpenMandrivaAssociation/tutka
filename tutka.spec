@@ -1,6 +1,6 @@
 %define name	tutka
 %define version 0.12.4
-%define release %mkrel 1
+%define release %mkrel 2
 %define schemas tutka
 
 Name: 	 	%{name}
@@ -40,7 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 desktop-file-install --vendor="" \
   --add-category="GTK" \
   --add-category="X-MandrivaLinux-Multimedia-Sound" \
-  --remove-category="Applications" \
+  --remove-category="Application" \
   --dir $RPM_BUILD_ROOT%{_datadir}/applications $RPM_BUILD_ROOT%{_datadir}/applications/%{name}.desktop
 
 #icons
