@@ -12,7 +12,6 @@ Source:		http://savannah.nongnu.org/download/tutka/%{name}-%{version}.tar.bz2
 URL:		http://www.nongnu.org/tutka/
 License:	GPL
 Group:		Sound
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	pkgconfig libgnomeui2-devel libxml2-devel libglade2.0-devel libalsa-devel desktop-file-utils ImageMagick
 
 %description
