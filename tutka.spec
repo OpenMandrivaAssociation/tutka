@@ -59,15 +59,19 @@ convert -scale 16 %{name}.png $RPM_BUILD_ROOT%{_iconsdir}/hicolor/16x16/apps/%{n
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%if %mdkversion < 200900
 %post
 %update_menus
 %post_install_gconf_schemas %{schemas}
+%endif
 
 %preun
 %preun_uninstall_gconf_schemas %{schemas}
 		
+%if %mdkversion < 200900
 %postun
 %clean_menus
+%endif
 
 %files
 %defattr(-,root,root)
