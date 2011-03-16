@@ -1,6 +1,6 @@
 %define name	tutka
-%define version 0.12.4
-%define release %mkrel 6
+%define version 0.12.5
+%define release %mkrel 1
 %define schemas tutka
 
 Name: 	 	%{name}
