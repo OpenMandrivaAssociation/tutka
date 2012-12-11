@@ -87,3 +87,66 @@ rm -rf $RPM_BUILD_ROOT
 %{_iconsdir}/hicolor/48x48/apps/%{name}.png
 %{_iconsdir}/hicolor/32x32/apps/%{name}.png
 %{_iconsdir}/hicolor/16x16/apps/%{name}.png
+
+
+%changelog
+* Mon May 23 2011 Funda Wang <fwang@mandriva.org> 0.12.5-2mdv2011.0
++ Revision: 677841
+- rebuild to add gconftool as req
+
+* Wed Mar 16 2011 Stéphane Téletchéa <steletch@mandriva.org> 0.12.5-1
++ Revision: 645464
+- update to new version 0.12.5
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 0.12.4-6mdv2010.0
++ Revision: 434471
+- rebuild
+
+  + Oden Eriksson <oeriksson@mandriva.com>
+    - lowercase ImageMagick
+
+* Sun Aug 03 2008 Thierry Vignaud <tv@mandriva.org> 0.12.4-5mdv2009.0
++ Revision: 261674
+- rebuild
+- rebuild
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.12.4-2mdv2008.1
++ Revision: 140921
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sat Jun 02 2007 Adam Williamson <awilliamson@mandriva.org> 0.12.4-2mdv2008.0
++ Revision: 34748
+- correct category removal
+
+* Thu May 31 2007 Adam Williamson <awilliamson@mandriva.org> 0.12.4-1mdv2008.0
++ Revision: 33035
+- BuildRequires libalsa-devel
+- generate MDV-style and fd.o icons
+- remove old menu, correct XDG menu
+- install gconf schemas correctly (with macro)
+- new release 0.12.4
+
+
+* Wed Nov 30 2005 Lenny Cartier <lenny@mandriva.com> 0.12.3-2mdk
+- do not use parallel build
+
+* Fri Nov 04 2005 Austin Acton <austin@mandriva.org> 0.12.3-1mdk
+- New release 0.12.3
+
+* Wed Mar 30 2005 Austin Acton <austin@mandrake.org> 0.12.2-1mdk
+- New release 0.12.2
+
+* Fri Jan 14 2005 Austin Acton <austin@mandrake.org> 0.12.0-1mdk
+- 0.12.0
+- source URL
+- configure 2.5
+
+* Tue Oct 14 2003 Austin Acton <aacton@yorku.ca> 0.11.1-1mdk
+- initial package
+
