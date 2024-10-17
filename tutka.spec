@@ -9,7 +9,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		http://savannah.nongnu.org/download/tutka/%{name}-%{version}.tar.bz2
-URL:		http://www.nongnu.org/tutka/
+URL:		https://www.nongnu.org/tutka/
 License:	GPL
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
