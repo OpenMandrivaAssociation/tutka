@@ -13,6 +13,11 @@ URL:		https://www.nongnu.org/tutka/
 License:	GPL
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig libgnomeui2-devel libxml2-devel libglade2.0-devel libalsa-devel desktop-file-utils imagemagick
 
 %description
